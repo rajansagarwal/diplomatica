@@ -21,7 +21,7 @@ class Opensource extends Component {
     <b><span>Data-Extraction: Scraping the Web for Article Content</span></b><br/>
    
     <button className="thisbutton">Check Out The Code</button><br/>
-    - Rajan, Veer and Jaival
+    - Rajan 🕺, Veer ⚙️ and Jaival 🔮
     </span></p>
                 </Col>
             </Row>
