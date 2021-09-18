@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactTextTransition, { presets } from "react-text-transition";
 
 const texts = [
-  "Why Hello There,",
+  "Why, Hello There.",
   "Welcome Hackers,",
   "Aloha!",
   "Soo dhawoow,",

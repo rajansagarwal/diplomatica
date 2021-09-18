@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import { Link } from 'react-router-dom';
-import Stats from '../components/Stats';
+import Relevant from '../components/Relevant';
 import "../App.css";
 import './pages.css';
 
@@ -23,14 +23,15 @@ export default function Debateroom1() {
           <Row>
             <Col sm={6} className="">
             <iframe title="chatapp" src="https://yep.rajnagrwl.repl.co/" width="100%" height="500px" frameBorder="0"/>
+            <p><Link to="/waitingroom"><span role="img" aria-label="emoji">👈</span> Exit Discussion</Link></p>
             </Col>
             <Col sm={6} className="">
-            <Stats/>
+            <Relevant/>
             </Col>
             
           </Row>
           <Row>
-          <p><Link to="/waitingroom"><span role="img" aria-label="emoji">👈</span> Exit Discussoin</Link></p>
+
             
           </Row>
         </header>
