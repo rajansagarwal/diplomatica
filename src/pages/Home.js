@@ -22,7 +22,7 @@ export default function Home() {
           <Row>
             <Col sm={2}></Col>
             <Col sm={8} className="">
-              <p className='meta'>We want to build a world of political scientists, who base facts and decisions off of events and know how to get their point across. Sadly, our world </p>
+              <p className='meta'>We want to build a world of political scientists, who base decisions off of facts and statistics, as well as know how to get their point across. Unfortunately, we live</p>
             <Row>
               
             </Row>
