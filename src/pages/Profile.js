@@ -4,6 +4,7 @@ import Mypoints from '../components/Mypoints';
 import Leaderboard from '../components/Leaderboard';
 import Interest from '../components/Interest';
 import Profilecard from '../components/Profilecard';
+import Opensource from '../components/Opensource';
 import "../App.css";
 import './pages.css';
 
@@ -21,8 +22,8 @@ export default function Profile() {
               <Mypoints/>
               </Col>
               <Col sm={6}>
-              <Interest/>
-              
+              <Interest/><br/>
+              <Opensource/>
               </Col>
           </Row>
           
