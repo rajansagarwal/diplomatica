@@ -434,12 +434,18 @@ Subnav {
 
 .myClassname {
     padding: 0 !important;
-    padding-left: 0 !important;
+    padding-left: 0;
     margin-left: 0 !important;
     width: 110% !important;
     height: 110% !important;
 	margin-top: -10px;
-    margin-left: -30% !important;
+    margin-left: -30%;
+}
+@media (max-width: 1500px) {
+	.myClassname {
+		margin-left: 50% !important;
+		padding-left: 20% !important;
+	}
 }
 
 .articletext {
