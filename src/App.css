@@ -443,8 +443,8 @@ Subnav {
 }
 @media (max-width: 1400px) {
 	.myClassname {
-	margin-left: -10% !important;
-	padding-left: 22% !important;
+	margin-left: -20% !important;
+	padding-left: -20% !important;
 	}
 }
 .articletext {
