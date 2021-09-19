@@ -47,10 +47,7 @@ export default function Waitingroom() {
               <Col sm={4}>
               <p><Link to="/dashboard"><span role="img" aria-label="emoji">👈</span> Go back to Dashboard</Link></p>
               </Col>
-              <Col sm={3.3}></Col>
-              <Col sm={4.7}>
-              <p><Link to="/dashboard"><span role="img" aria-label="emoji">📜</span> Terms, Conditions, Privacy Policy</Link></p>
-              </Col>
+              
           </Row>
           
           

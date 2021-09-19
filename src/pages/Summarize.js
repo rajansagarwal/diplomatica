@@ -12,7 +12,7 @@ export default function Summarize() {
         <header className="App-header">
           <Row>
               <Col sm={12}>
-              <Iframe url="https://share.streamlit.io/diplomatica-htn/ml-app/app.py"
+              <Iframe url="https://diplomatica-nlp.herokuapp.com/"
         id="myId"
         className="myClassname"
         position="fixed"/>
