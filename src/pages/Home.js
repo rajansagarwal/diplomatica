@@ -15,7 +15,7 @@ export default function Home() {
           <Col sm={12} className="landingheader">
             <br/>
             <h2 className="explorehead">We are Diplomatica</h2>
-            <p className="center">Gamifying Political and Social Awareness</p>
+            <p className="center">A Well-Informed Electorate Is a Prerequisite for Democracy</p>
             
           </Col>
           </Row>
