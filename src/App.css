@@ -441,7 +441,11 @@ Subnav {
 	margin-top: -10px;
     margin-left: -30% !important;
 }
-
+@media (max-width: 1400px) {
+	.myClassname {
+	margin-left: 0 !important;
+	}
+}
 .articletext {
 	font-size: 30px;
 	line-height: 2;
