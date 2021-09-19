@@ -14,6 +14,7 @@ import Debateroom3 from './pages/Debateroom3';
 import Debateroom4 from './pages/Debateroom4';
 import Visualize from './pages/Visualize';
 import Profile from './pages/Profile';
+import Summarize from './pages/Summarize';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -63,6 +64,9 @@ function App() {
       </Route>
       <Route path="/profile">
         <Profile/>
+      </Route>
+      <Route path="/summarize">
+        <Summarize/>
       </Route>
     </div>
     </Router>

@@ -4,7 +4,7 @@ import Iframe from 'react-iframe';
 import "../App.css";
 import './pages.css';
 
-export default function Visualize() {
+export default function Summarize() {
   return (
     <div className="App">
 
@@ -12,7 +12,7 @@ export default function Visualize() {
         <header className="App-header">
           <Row>
               <Col sm={12}>
-              <Iframe url="https://diplomatica-analyze.herokuapp.com/"
+              <Iframe url="https://share.streamlit.io/diplomatica-htn/ml-app/app.py"
         id="myId"
         className="myClassname"
         position="fixed"/>
